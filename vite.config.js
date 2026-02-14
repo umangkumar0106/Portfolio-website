@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   
   // GitHub Pages deployment base path
-  base: '/portfolio/',
+  base: '/',
   
   // Build optimizations
   build: {
