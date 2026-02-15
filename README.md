@@ -3,7 +3,7 @@
 A modern, responsive portfolio website showcasing skills, projects, academic achievements, and certifications. Built with **React**, **Vite**, and **Tailwind CSS**.
 
 ## Live Demo
-[https://umangkumar0106.github.io/portfolio/](https://umangkumar0106.github.io/portfolio/)
+[https://umang-portfolio-sandy-two.vercel.app/](https://umang-portfolio-sandy-two.vercel.app/)
 
 ## Features
 - Responsive Design - Works on all devices
