@@ -18,7 +18,7 @@ const About = () => {
                 alt="Umang Kumar"
                 className="w-full max-w-sm transition-all duration-300 shadow-xl rounded-3xl grayscale hover:grayscale-0 hover:scale-105"
               />
-              <div className="absolute w-full h-full -top-5 -left-5 bg-linear-to-br from-indigo-500 to-purple-600 rounded-3xl -z-10 opacity-30" />
+              <div className="absolute w-full h-full -top-5 -left-5 bg-linear-to-br from-blue-500 to-blue-600 rounded-3xl -z-10 opacity-30" />
             </div>
           </div>
 
@@ -34,7 +34,7 @@ const About = () => {
                   key={index}
                   className="p-4 text-center transition-all duration-300 bg-white shadow-lg rounded-xl hover:shadow-xl hover:-translate-y-2 group"
                 >
-                  <i className={`${skill.icon} text-3xl mb-3 bg-linear-to-r from-indigo-500 to-purple-600 bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-300`} />
+                  <i className={`${skill.icon} text-3xl mb-3 bg-linear-to-r from-blue-500 to-blue-600 bg-clip-text text-transparent group-hover:scale-110 transition-transform duration-300`} />
                   <h4 className="text-sm font-semibold text-gray-800">{skill.name}</h4>
                 </div>
               ))}

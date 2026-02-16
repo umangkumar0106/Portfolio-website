@@ -1,4 +1,3 @@
-import React from 'react';
 import { X } from 'lucide-react';
 
 const CertificateModal = ({ certModal, onClose }) => {
@@ -27,14 +26,14 @@ const CertificateModal = ({ certModal, onClose }) => {
               />
             </div>
           ) : (
-            <div className="p-12 text-center border-4 border-indigo-500 bg-linear-to-br from-gray-50 to-gray-100 rounded-2xl">
-              <h2 className="mb-4 text-3xl font-bold text-indigo-600">Certificate of Completion</h2>
-              <div className="w-48 h-1 mx-auto mb-8 bg-linear-to-r from-indigo-500 to-purple-600" />
+            <div className="p-12 text-center border-4 border-blue-500 bg-linear-to-br from-gray-50 to-gray-100 rounded-2xl">
+              <h2 className="mb-4 text-3xl font-bold text-blue-600">Certificate of Completion</h2>
+              <div className="w-48 h-1 mx-auto mb-8 bg-linear-to-r from-blue-500 to-blue-600" />
               <h3 className="mb-4 text-2xl font-semibold text-gray-800">{certModal.title}</h3>
               <p className="mb-2 text-gray-600">This certifies that</p>
               <h4 className="mb-4 text-3xl font-bold text-gray-900">Umang Kumar</h4>
               <p className="mb-2 text-gray-600">has successfully completed the requirements for</p>
-              <h3 className="mb-8 text-2xl font-bold text-indigo-600">{certModal.title}</h3>
+              <h3 className="mb-8 text-2xl font-bold text-blue-600">{certModal.title}</h3>
               <div className="flex items-end justify-between">
                 <div>
                   <div className="w-48 h-px mb-2 bg-gray-400" />

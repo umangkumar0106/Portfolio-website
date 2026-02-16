@@ -31,7 +31,7 @@ const Navigation = ({ isScrolled, onDownloadCV }) => {
       isScrolled ? 'bg-slate-900/98 backdrop-blur-md shadow-lg' : 'bg-slate-900/95 backdrop-blur-md'
     }`}>
       <div className="flex items-center justify-between max-w-6xl py-4 pr-8 mx-auto">
-        <a href="#home" className="text-xl font-bold text-white transition-all duration-300 hover:bg-linear-to-r hover:from-indigo-500 hover:to-purple-600 hover:bg-clip-text hover:text-transparent">
+        <a href="#home" className="text-xl font-bold text-white transition-all duration-300 hover:bg-linear-to-r hover:from-blue-500 hover:to-blue-600 hover:bg-clip-text hover:text-transparent">
           UMANG KUMAR
         </a>
         
@@ -41,7 +41,7 @@ const Navigation = ({ isScrolled, onDownloadCV }) => {
             <li key={item}>
               <a 
                 href={`#${item.toLowerCase()}`}
-                className="px-4 py-2 text-white transition-all duration-300 rounded-full hover:text-transparent hover:bg-linear-to-r hover:from-indigo-500 hover:to-purple-600 hover:bg-clip-text hover:bg-white/10"
+                className="px-4 py-2 text-white transition-all duration-300 rounded-full hover:text-transparent hover:bg-linear-to-r hover:from-blue-500 hover:to-blue-600 hover:bg-clip-text hover:bg-white/10"
               >
                 {item}
               </a>
@@ -50,7 +50,7 @@ const Navigation = ({ isScrolled, onDownloadCV }) => {
           <li>
             <button 
               onClick={onDownloadCV}
-              className="flex items-center gap-2 px-4 py-2 text-white transition-all duration-300 rounded-full hover:text-transparent hover:bg-linear-to-r hover:from-indigo-500 hover:to-purple-600 hover:bg-clip-text hover:bg-white/10"
+              className="flex items-center gap-2 px-4 py-2 text-white transition-all duration-300 rounded-full hover:text-transparent hover:bg-linear-to-r hover:from-blue-500 hover:to-blue-600 hover:bg-clip-text hover:bg-white/10"
             >
               Download Resume <Download className="w-4 h-4" />
             </button>
@@ -77,7 +77,7 @@ const Navigation = ({ isScrolled, onDownloadCV }) => {
             <a 
               key={item}
               href={`#${item.toLowerCase()}`}
-              className={`text-white text-xl hover:text-transparent hover:bg-linear-to-r hover:from-indigo-500 hover:to-purple-600 hover:bg-clip-text transition-all duration-300 transform ${
+              className={`text-white text-xl hover:text-transparent hover:bg-linear-to-r hover:from-blue-500 hover:to-blue-600 hover:bg-clip-text transition-all duration-300 transform ${
                 isNavOpen ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'
               }`}
               style={{ transitionDelay: isNavOpen ? `${index * 0.1}s` : '0s' }}
@@ -91,7 +91,7 @@ const Navigation = ({ isScrolled, onDownloadCV }) => {
               onDownloadCV();
               setIsNavOpen(false);
             }}
-            className={`text-white text-xl hover:text-transparent hover:bg-linear-to-r hover:from-indigo-500 hover:to-purple-600 hover:bg-clip-text transition-all duration-300 transform flex items-center gap-2 ${
+            className={`text-white text-xl hover:text-transparent hover:bg-linear-to-r hover:from-blue-500 hover:to-blue-600 hover:bg-clip-text transition-all duration-300 transform flex items-center gap-2 ${
               isNavOpen ? 'translate-y-0 opacity-100' : 'translate-y-5 opacity-0'
             }`}
             style={{ transitionDelay: isNavOpen ? '0.6s' : '0s' }}

@@ -1,9 +1,8 @@
-import React from 'react';
 
 const SectionHeader = ({ title, subtitle }) => {
   return (
     <div className="mb-16 text-center">
-      <h2 className="mb-4 text-4xl font-bold text-transparent md:text-5xl bg-linear-to-r from-indigo-500 to-purple-600 bg-clip-text">
+      <h2 className="mb-4 text-4xl font-bold text-transparent md:text-5xl bg-linear-to-r from-blue-500 to-blue-600 bg-clip-text">
         {title}
       </h2>
       {subtitle && (

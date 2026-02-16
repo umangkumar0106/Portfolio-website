@@ -17,7 +17,7 @@ const Contact = ({ formData, formErrors, isSubmitting, onInputChange, onSubmit }
             <h3 className="mb-8 text-2xl font-bold text-gray-900">Contact Information</h3>
             
             <div className="flex items-center p-6 space-x-4 transition-all duration-300 bg-white shadow-lg rounded-2xl hover:shadow-xl hover:translate-x-2">
-              <div className="flex items-center justify-center w-12 h-12 bg-linear-to-r from-indigo-500 to-purple-600 rounded-xl">
+              <div className="flex items-center justify-center w-12 h-12 bg-linear-to-r from-blue-500 to-blue-600 rounded-xl">
                 <Mail className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -27,7 +27,7 @@ const Contact = ({ formData, formErrors, isSubmitting, onInputChange, onSubmit }
             </div>
 
             <div className="flex items-center p-6 space-x-4 transition-all duration-300 bg-white shadow-lg rounded-2xl hover:shadow-xl hover:translate-x-2">
-              <div className="flex items-center justify-center w-12 h-12 bg-linear-to-r from-indigo-500 to-purple-600 rounded-xl">
+              <div className="flex items-center justify-center w-12 h-12 bg-linear-to-r from-blue-500 to-blue-600 rounded-xl">
                 <Phone className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -37,7 +37,7 @@ const Contact = ({ formData, formErrors, isSubmitting, onInputChange, onSubmit }
             </div>
 
             <div className="flex items-center p-6 space-x-4 transition-all duration-300 bg-white shadow-lg rounded-2xl hover:shadow-xl hover:translate-x-2">
-              <div className="flex items-center justify-center w-12 h-12 bg-linear-to-r from-indigo-500 to-purple-600 rounded-xl">
+              <div className="flex items-center justify-center w-12 h-12 bg-linear-to-r from-blue-500 to-blue-600 rounded-xl">
                 <MapPin className="w-6 h-6 text-white" />
               </div>
               <div>
@@ -61,7 +61,7 @@ const Contact = ({ formData, formErrors, isSubmitting, onInputChange, onSubmit }
                   value={formData.name}
                   onChange={onInputChange}
                   className={`w-full px-4 py-3 border-2 rounded-xl transition-all duration-300 focus:outline-none ${
-                    formErrors.name ? 'border-red-500 focus:border-red-500' : 'border-gray-200 focus:border-indigo-500'
+                    formErrors.name ? 'border-red-500 focus:border-red-500' : 'border-gray-200 focus:border-blue-500'
                   }`}
                   placeholder="Your Name"
                 />
@@ -81,7 +81,7 @@ const Contact = ({ formData, formErrors, isSubmitting, onInputChange, onSubmit }
                   value={formData.email}
                   onChange={onInputChange}
                   className={`w-full px-4 py-3 border-2 rounded-xl transition-all duration-300 focus:outline-none ${
-                    formErrors.email ? 'border-red-500 focus:border-red-500' : 'border-gray-200 focus:border-indigo-500'
+                    formErrors.email ? 'border-red-500 focus:border-red-500' : 'border-gray-200 focus:border-blue-500'
                   }`}
                   placeholder="your.email@example.com"
                 />
@@ -101,7 +101,7 @@ const Contact = ({ formData, formErrors, isSubmitting, onInputChange, onSubmit }
                   value={formData.subject}
                   onChange={onInputChange}
                   className={`w-full px-4 py-3 border-2 rounded-xl transition-all duration-300 focus:outline-none ${
-                    formErrors.subject ? 'border-red-500 focus:border-red-500' : 'border-gray-200 focus:border-indigo-500'
+                    formErrors.subject ? 'border-red-500 focus:border-red-500' : 'border-gray-200 focus:border-blue-500'
                   }`}
                   placeholder="What's this about?"
                 />
@@ -121,7 +121,7 @@ const Contact = ({ formData, formErrors, isSubmitting, onInputChange, onSubmit }
                   onChange={onInputChange}
                   rows="6"
                   className={`w-full px-4 py-3 border-2 rounded-xl transition-all duration-300 focus:outline-none resize-vertical ${
-                    formErrors.message ? 'border-red-500 focus:border-red-500' : 'border-gray-200 focus:border-indigo-500'
+                    formErrors.message ? 'border-red-500 focus:border-red-500' : 'border-gray-200 focus:border-blue-500'
                   }`}
                   placeholder="Tell me about your project or just say hi!"
                 />
@@ -133,7 +133,7 @@ const Contact = ({ formData, formErrors, isSubmitting, onInputChange, onSubmit }
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full py-4 font-semibold text-white transition-all duration-300 bg-linear-to-r from-indigo-500 to-purple-600 rounded-xl hover:shadow-lg hover:-translate-y-1 disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none"
+                className="w-full py-4 font-semibold text-white transition-all duration-300 bg-linear-to-r from-blue-500 to-blue-600 rounded-xl hover:shadow-lg hover:-translate-y-1 disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none"
               >
                 {isSubmitting ? (
                   <div className="flex items-center justify-center space-x-2">
